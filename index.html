@@ -24,6 +24,9 @@
   .botao:focus-visible { outline:3px solid var(--texto); outline-offset:2px; }
   .reel { display:block; text-align:center; margin-top:10px; font-size:.85rem; color:var(--suave); }
   .vazio { color:var(--suave); text-align:center; padding:32px 0; }
+  .canais { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:0 0 20px; font-size:.85rem; color:var(--suave); }
+  .canais a { color:var(--texto); text-decoration:none; font-weight:600; background:var(--cartao); border:1px solid var(--borda); border-radius:999px; padding:6px 12px; }
+  .canais a:focus-visible { outline:3px solid var(--texto); outline-offset:2px; }
   .dia h2 { font-size:1.05rem; margin:28px 0 12px; display:flex; align-items:baseline; justify-content:space-between; gap:8px; }
   .dia:first-of-type h2 { margin-top:8px; font-size:1.2rem; }
   .contagem { font-size:.8rem; font-weight:400; color:var(--suave); }
@@ -39,6 +42,7 @@
 <main>
   <h1>Achadinhos Albino</h1>
   <p class="sub">Os achadinhos que você pediu 🛒✨</p>
+  <nav class="canais" aria-label="Outros canais"><span>Receba as ofertas também:</span><a href="https://t.me/achadinhosalbino" rel="noopener">Canal no Telegram</a><a href="https://whatsapp.com/channel/0029Vb92MkD0G0Xog2Y6MI1q" rel="noopener">Canal no WhatsApp</a></nav>
   <p class="aviso">Os links abaixo são de <strong>afiliado</strong>: se você comprar por eles, podemos receber uma comissão, sem custo extra para você. Preço e desconto mudam o tempo todo, então confira na loja antes de comprar.</p>
   <section class="dia" id="dia-2026-10-09">
     <h2>Achados de hoje <span class="contagem">6 achados</span></h2>
